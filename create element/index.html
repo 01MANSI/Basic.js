@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<body>
+    <p id="p1">hii</p>
+    <p id="p2">hello</p>
+    
+    <script >
+        //const newp=document.createElement('p')
+const newp=document.createElement('p')
+//newp.textContent='your name '
+newp.textContent='i am new p'
+
+//const parent=document.querySelector('p1')
+//parent.appendChild(newp)
+const existp1=document.getElementById('p1')
+const existp2=document.getElementById('p2')
+
+const parentElement=existp1.parentNode
+parentElement.insertBefore(newp, p2)
+
+    </script>
+
+</body>
+
+</html>

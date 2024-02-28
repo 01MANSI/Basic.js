@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+
+body {
+    
+    background-color: blueviolet;
+    
+
+}
+
+#link a {
+    text-decoration: none;
+
+}
+
+#offer {
+    background-color: aquamarine;
+    height: 200px;
+    margin: 20px;
+
+}
+
+img {
+    display: block;
+    height: 200px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card{
+    display: flex;
+    
+    /* margin-bottom: 20px; */
+    height: 400px;
+    padding: 10px;
+    width: 100%;
+    background-color:darkcyan;
+    justify-content: center;
+    
+}
+.mainc{
+    
+    /*padding: 20px;*/
+    /*padding-bottom: 10px;*/
+    height: 400px;
+    width: 300px;
+    justify-content: space-between;
+    background-color:aquamarine;
+    /*border-radius: 20px;*/
+    margin: 20px;
+    align-items: center;
+    /*padding-left: 20px;*/
+    
+
+}
+#image{
+    display:flex;
+    height:200px ;
+    width:300px;
+   /* margin-left: 0;*/
+    margin-right: 0;
+    align-items: center;
+    background-color: darkblue;
+    
+
+}
+#content{
+    /*padding: 10px;*/
+    height: 150px;
+    width: 250px;
+    background-color:gray;
+    text-indent: 100px;
+    text-align: justify;
+    display: flex;
+    margin: 10px;
+    
+}
+.card2{
+    display: flex;
+    background-color:darkcyan;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+#footer{
+    background-color: pink;
+    text-align: center;
+}
+
+

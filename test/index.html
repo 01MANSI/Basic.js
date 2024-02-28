@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="main">
+        <h1 style="color:orangered;">LOGO</h1>
+        <div id="link">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Categories</a>
+            <a href="#contact">Contact Us</a>
+
+        </div>
+    </nav>
+
+    <div id="offer-section">
+        <img id="offer-poster"
+            src="https://img.freepik.com/free-vector/gradient-vertical-sale-poster-template_23-2149047002.jpg?size=626&ext=jpg&ga=GA1.1.461881400.1708241839&semt=ais"
+            alt="Special Offer">
+    </div>
+
+    <div class="mainbox">
+
+        <div class="product-box"
+            onclick="showDetails('CAR','IT is a hight quality car','$2000000','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlW6uI3z1OU8ZnO3UZ5X2xoS1RdXAiPgSaOg&usqp=CAU')">
+            <img class="product-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlW6uI3z1OU8ZnO3UZ5X2xoS1RdXAiPgSaOg&usqp=CAU"
+                alt="car">
+            <div class="product-details">
+                <h3>Car</h3>
+                <p>FRAMEX Porsche 911 GT3 Super Car Poster Wall Decoration Art Framed Poster, Matt Laminated Poster with
+                    0.5 Inch Black Wooden Frame (8X12 Inches, Matt)
+                    Brand: Generic
+                    Search this page
+                    ₹349.00 with 65 percent savings-65% ₹349
+                    M.R.P.: ₹999.00M.R.P.: ₹999</p>
+
+            </div>
+        </div>
+
+        <div class="product-box"
+            onclick="showDetails('Bike','IT is a hight quality Bike','$1000000','https://media.istockphoto.com/id/1171675830/photo/motorcycle-driver-riding-in-dolomite-pass-italy-europe.jpg?s=612x612&w=is&k=20&c=wnx7-kijys1BxGnpM1mYvG-bseODUMWBLsu2vDiZAK0=')">
+            <img class="product-img"
+                src="https://media.istockphoto.com/id/1171675830/photo/motorcycle-driver-riding-in-dolomite-pass-italy-europe.jpg?s=612x612&w=is&k=20&c=wnx7-kijys1BxGnpM1mYvG-bseODUMWBLsu2vDiZAK0="
+                alt="car">
+            <div class="product-details">
+                <h3>Bike</h3>
+                <p>FRAMEX Porsche 911 GT3 Super Car Poster Wall Decoration Art Framed Poster, Matt Laminated Poster with
+                    0.5 Inch Black Wooden Frame (8X12 Inches, Matt)
+                    Brand: Generic
+                    Search this page
+                    ₹349.00 with 65 percent savings-65% ₹349
+                    M.R.P.: ₹999.00M.R.P.: ₹999</p>
+
+            </div>
+        </div>
+
+        <div class="product-box"
+            onclick="showDetails('Scooty','IT is a hight quality Scooty','$1000000','data:image/jpeg;base64,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')">
+            <img class="product-img"
+                src="data:image/jpeg;base64,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"
+                alt="car">
+            <div class="product-details">
+                <h3>Scooty</h3>
+                <p>FRAMEX Porsche 911 GT3 Super Car Poster Wall Decoration Art Framed Poster, Matt Laminated Poster with
+                    0.5 Inch Black Wooden Frame (8X12 Inches, Matt)
+                    Brand: Generic
+                    Search this page
+                    ₹349.00 with 65 percent savings-65% ₹349
+                    M.R.P.: ₹999.00M.R.P.: ₹999</p>
+
+            </div>
+        </div>
+
+        <div class="product-box"
+            onclick="showDetails('Bike','IT is a hight quality Bike','$1000000','https://media.istockphoto.com/id/1446277250/vector/bicycle-isolated-on-white-background.jpg?s=612x612&w=is&k=20&c=47QwzvzlgRGi9H4KjeQK2XdeTsZ3usoUw0moO3j7Bvw=')">
+            <img class="product-img"
+                src="https://media.istockphoto.com/id/1446277250/vector/bicycle-isolated-on-white-background.jpg?s=612x612&w=is&k=20&c=47QwzvzlgRGi9H4KjeQK2XdeTsZ3usoUw0moO3j7Bvw="
+                alt="car">
+            <div class="product-details">
+                <h3>Bike</h3>
+                <p>FRAMEX Porsche 911 GT3 Super Car Poster Wall Decoration Art Framed Poster, Matt Laminated Poster with
+                    0.5 Inch Black Wooden Frame (8X12 Inches, Matt)
+                    Brand: Generic
+                    Search this page
+                    ₹349.00 with 65 percent savings-65% ₹349
+                    M.R.P.: ₹999.00M.R.P.: ₹999</p>
+
+            </div>
+        </div>
+
+
+        <div class="product-box"
+            onclick="showDetails('Bicycle','IT is a hight quality Bicycle','$1000000','https://media.istockphoto.com/id/1446277250/vector/bicycle-isolated-on-white-background.jpg?s=612x612&w=is&k=20&c=47QwzvzlgRGi9H4KjeQK2XdeTsZ3usoUw0moO3j7Bvw=')">
+            <img class="product-img"
+                src="https://media.istockphoto.com/id/1446277250/vector/bicycle-isolated-on-white-background.jpg?s=612x612&w=is&k=20&c=47QwzvzlgRGi9H4KjeQK2XdeTsZ3usoUw0moO3j7Bvw="
+                alt="car">
+            <div class="product-details">
+                <h3>Bicycle</h3>
+                <p>FRAMEX Porsche 911 GT3 Super Car Poster Wall Decoration Art Framed Poster, Matt Laminated Poster with
+                    0.5 Inch Black Wooden Frame (8X12 Inches, Matt)
+                    Brand: Generic
+                    Search this page
+                    ₹349.00 with 65 percent savings-65% ₹349
+                    M.R.P.: ₹999.00M.R.P.: ₹999</p>
+
+            </div>
+        </div>
+
+
+        <div class="product-box"
+            onclick="showDetails('Car','IT is a hight quality Expensive car','$1000000','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4mbA7mzVffkKdB3K-A_pXnMWXK7R7gxr3g&usqp=CAU')">
+            <img class="product-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4mbA7mzVffkKdB3K-A_pXnMWXK7R7gxr3g&usqp=CAU"
+                alt="car">
+            <div class="product-details">
+                <h3>Car</h3>
+                <p>FRAMEX Porsche 911 GT3 Super Car Poster Wall Decoration Art Framed Poster, Matt Laminated Poster with
+                    0.5 Inch Black Wooden Frame (8X12 Inches, Matt)
+                    Brand: Generic
+                    Search this page
+                    ₹349.00 with 65 percent savings-65% ₹349
+                    M.R.P.: ₹999.00M.R.P.: ₹999</p>
+
+            </div>
+        </div>
+
+        <div class="product-box"
+            onclick="showDetails('Car','IT is a hight quality Car','$1000000','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-7bL2-cfe3ViSzDcMK8wmAb5PiNavNGvEHA&usqp=CAU')">
+            <img class="product-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-7bL2-cfe3ViSzDcMK8wmAb5PiNavNGvEHA&usqp=CAU">
+            <div class="product-details">
+                <h3>Car</h3>
+                <p>FRAMEX Porsche 911 GT3 Super Car Poster Wall Decoration Art Framed Poster, Matt Laminated Poster with
+                    0.5 Inch Black Wooden Frame (8X12 Inches, Matt)
+                    Brand: Generic
+                    Search this page
+                    ₹349.00 with 65 percent savings-65% ₹349
+                    M.R.P.: ₹999.00M.R.P.: ₹999</p>
+
+            </div>
+        </div>
+
+        <div class="product-box"
+            onclick="showDetails('Car','IT is a hight quality Car','$1000000','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBmdbO-FccsaRbKFCrxsgA_Ml82mqHaYQJHA&usqp=CAU')">
+            <img class="product-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBmdbO-FccsaRbKFCrxsgA_Ml82mqHaYQJHA&usqp=CAU">
+            <div class="product-details">
+            <h3>Car</h3>
+            <p>FRAMEX Porsche 911 GT3 Super Car Poster Wall Decoration Art Framed Poster, Matt Laminated Poster with 0.5
+                Inch Black Wooden Frame (8X12 Inches, Matt)
+                Brand: Generic
+                Search this page
+                ₹349.00 with 65 percent savings-65% ₹349
+                M.R.P.: ₹999.00M.R.P.: ₹999</p>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <span class="close-btn" onclick="hideDetails()">&times;</span>
+            <img class="product-popup-img" id="product-popup-img" src="" alt="product Image">
+            <h2 id="product-title"></h2>
+            <p id="product-description"></p>
+            <p id="product-price"></p>
+        </div>
+    </div>
+
+    </div>
+
+
+    <div id="contact1">
+        <form onsubmit="handleSubmitBit(event)" id="contact"><br><br>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" /><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" /><br><br>
+
+            <label for="phone">Phone No</label>
+            <input type="tel" name="phone" id="phone" /><br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+<div id="btn">
+    <button  id="btn" onclick="contact()">contact us</button>
+</div>
+    <footer id="footer">&copy; 2024 E-Commerce Store. All Rights Reserved.</footer>
+
+</body>
+<script src="app.js"></script>
+
+</html>

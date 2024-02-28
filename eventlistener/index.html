@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style..css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <label for="userInput">Enter your Name:</label>
+    <input type="text" id="userInput" placeholder="input here" />
+    <button onclick="handle()" id="submitBtn" style="cursor: pointer;">Submit</button>
+  </div>
+
+  <div id="overlay"></div>
+  <div id="popup" onclick="popup()">
+    <span id="popupClose" style="cursor: pointer">&times;</span>
+    <h2>Hello ........</h2>
+    <p id="userContent" style="font-size: 30px; color: #29b2ec; "></p>
+  </div>
+
+
+
+  <script>
+    function handle() {
+      var userInput = document.getElementById("userInput").value;
+      //const submit = document.getElementById("submitBtn")
+      document.getElementById("userContent").textContent = userInput;
+      document.getElementById("popup").style.display = "block";
+      document.getElementById("overlay").style.display = "block";
+    }
+    function popup(){
+      document.getElementById("popup").style.display = "none";
+      document.getElementById("overlay").style.display = "none";
+    }
+      
+
+
+
+    
+  </script>
+</body>
+
+</html>
